@@ -1,0 +1,140 @@
+<Html>
+<Head><Title>Marbles 1.1 Readme</title>
+</head>
+<body>
+<font face="Arial" size=2>
+<font color=darkblue>
+<b>Marbles 1.1</b><br>
+<font color=black>
+By Paul Berlin 2003<br>
+Using the fmod sound library, <a href="http://www.fmod.org">http://www.fmod.org</a>.<br>
+<i>More credits at the bottom of the document.</i><br><br>
+Please vote for Marbles 1.1 at <a href="http://www.planetsourcecode.com">PlanetSourceCode</a>.<br>
+<p>
+Feel free to change/add/improve this code, but if you do<br>
+I would appreciate if you <a href="mailto:berlin_paul@hotmail.com">send</a> me the updated code =).<br>
+<p>
+If you use this code in any of your own projects, please<br>
+mention me in your credits.<br>
+<p>
+Read <a href="important info.txt">Important Info</a>.
+<p>
+<font color=darkblue>
+<b>What's new in version 1.1:</b>
+<font color=black><br>
+<li>Adjusted gameplay to reduce playing time: you get less bombs, bombs no longer give <br>
+10 extra seconds, but time bonuses now appear even if time is more than 60 seconds.</li>
+<li>Changed beep sound when time is low to tick sound.</li>
+<li>Added graphics to show when you gain another bomb.</li>
+<li>You can now enter highscores containing special characters.</li>
+<p>
+<font color=darkblue>
+<b>System requirements:</b>
+<font color=black>
+<li>DirectX 8.1 or higher.</li>
+<li>Visual Basic 6 Runtime Libraries.</li>
+<li>Windows 98, Me, 2k, XP.</li>
+<li>3D Accelerated graphic card comp. with DirectX.</li>
+<li>Sound card comp. with DirectX.</li>
+<li>Mouse & Keyboard comp. with DirectX.</li>
+<p>
+for best performance:
+<br>
+<li>Good graphics card (GeForce etc.)</li>
+<li>Pretty fast computer (an 700mhz will probably give an nice framerate.)</li>
+<p>
+<b>Note:</b> My Athlon 1,2 Ghz with an GeForce 2 Pro, gives about 350 fps when in game,<br>
+but can go down as low as 100-150 fps (well that isn't low exactly...) when there are many<br>
+marbles exploding at once.
+<p>
+<font color=darkblue>
+<b>Game Help:</b>
+<br>
+<font color=black>
+The goal of the game is to get as much points as possible. You get points by forming<br>
+rows of at least three marbles of the same color. You form rows by moving marbles, <br>
+but you can only move an marble if it, at it's new position, forms an row. <br><br>
+You move marbles by clicking on one marble and then clicking on its new position.<br>
+You can only move an marble one step vertical or horizontal, not diagonal.<br>
+I'm sure you will get the hang of it...
+<p>
+<b>Time</b><br>
+You have an limited ammount of time to get your points. The clock starts at 90 seconds,<br>
+but you can increase it up to 120 seconds. You gain more time by creating chain reactions<br>
+and taking time bonuses. When the time hits 0 the game is over. If you gain more time when the<br>
+clock already is at it's highest (120 seconds), you will gain points instead (lot's of them).<br>
+<p>
+<b>Bombs</b><br>
+You also have bombs, which will remove an 3x3 area of marbles. Rightclick to use them.<br>
+You have 3 bombs when you start, but can gain more by creating chain reactions at 5, <br>
+8 and 10 chains.<br>
+<p>
+<b>Scoring</b><br>
+Creating rows of marbles will give you 10 points for each marble, but that will be<br>
+multiplied with the ammount of chain reactions you have created. The key to points<br>
+is creating chain reactions!
+<p>
+<b>Specials</b><br>
+Some marbles have special properties. They will have an small icon over them, showing<br>
+which special property it is. Some properties only appear after you get over an certain<br>
+ammount of points.
+<p>
+<img src="data\gfx\spec_left_right.png" border=1><b>Horizontal Remover</b><br>
+This special will, when removed, clear the entire horizontal row it is located at.<br>
+<p>
+<img src="data\gfx\spec_up_down.png" border=1><b>Vertical Remover</b><br>
+This special will, when removed, clear the entire vartical row it is located at.<br>
+<p>
+<img src="data\gfx\spec_all.png" border=1><b>Color Remover</b><br>
+This special will, when removed, clear all the other marbles of the same color.<br>
+<p>
+<img src="data\gfx\spec_x2.png" border=1><b>Chain bonus</b><br>
+This special will, when removed, will increase your chain reaction count, and <br>
+thus give you more points and time.<br>
+<p>
+<img src="data\gfx\spec_time.png" border=1><b>Time bonus</b><br>
+This special will, when removed, will give you an extra 5 seconds.<br>
+<p>
+<img src="data\gfx\spec_switch.png" border=1><b>Switcher</b><br>
+This special will make it's marble change color every 10 seconds.<br>
+<p>
+<img src="data\gfx\spec_shield.png" border=1><b>Shield</b><br>
+This special will defend it's marble from being removed one time.<br>
+<p>
+<font color=darkblue>
+<b>Hints:</b>
+<font color=black><br>
+<li>You can remove highscore.dat to clear the highscore.</li>
+<li>If you are low on time, use a bomb, it will give you 10 seconds extra.</li>
+<li>You can turn on/off showing of fps by pressing F at the main title screen.</li>
+<li>Press F5 while in game to switch music.</li>
+<li>If there are no moves left and you want to end the game, just select <i>End Game</i> from.<br>
+the game menu or press F12. You will still be able to enter an highscore.</li>
+<p>
+<font color=darkblue>
+<b>Programming notes:</b>
+<font color=black><br>
+<li>I tried my best to include frame skipping at lower fps speeds, <br>
+but haven't been able to test it at actual slower fps speeds. It should<br>
+work fine, though.</li>
+<li>Some parts of the code may seem like an mess... Well it is =).<br>
+Sorry... I tried to comment as much as possible, but mostly I forgot. =)</li>
+<li>An newer version of the game engine, PGE, can be downloaded from<br>
+<a href="http://www.planetsourcecode.com">PlanetSourceCode</a>.</li>
+<p>
+<font color=darkblue>
+<b>Credits:</b>
+<font color=black><br>
+<li>Programming, design & graphics by Paul Berlin 2003</li>
+<li>Using the fmod sound library, <a href="http://www.fmod.org">http://www.fmod.org</a>.</li>
+<li>Game engine was based on the Boom2D Engine, also available on PlanetSourceCode.</li>
+<li>All music credits goes to their respective creators.</li>
+<li>Sound effects from various sources, mostly from the internet.</li>
+<p>
+<font color=darkblue>
+<b>Author Info:</b>
+<font color=black><br>
+Paul Berlin, born 1982, from south Sweden.<br>
+<a href="mailto:berlin_paul@hotmail.com">berlin_paul@hotmail.com</a>
+</body>
+</html>

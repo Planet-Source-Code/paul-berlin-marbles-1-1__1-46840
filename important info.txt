@@ -1,0 +1,20 @@
+Marbles 1.1
+Paul Berlin 2003
+
+IMPORTANT INFO
+--------------
+Marbles takes use of the fmod sound library from
+Firelight Technologies and requires the fmod.dll
+file. It can be downloaded from the fmod website
+at http://www.fmod.org or you can rename the 
+fmod.dll_ file to fmod.dll.
+
+DirectX 8.1 SDK (or higher) is required if
+you want to compile Marbles. It can be downloaded
+from the microsoft website.
+
+There is also an compiled version of Marbles
+included, renamed to Marbles.exe_ in case
+you are having problems compiling.
+
+Look in readme.html for further information.
